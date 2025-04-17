@@ -62,8 +62,8 @@ const About = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <p className="section-subtext">Introduction</p>
-          <h2 className="section-heading">Overview.</h2>
+          <p className="section-heading">INTRODCTION</p>
+          <h2 className="section-subtext">OVERVIEW</h2>
         </motion.div>
 
         <div className="mt-10 md:flex md:items-start md:space-x-12">
@@ -74,11 +74,10 @@ const About = () => {
             viewport={{ once: true }}
             className="md:w-1/2 mb-8 md:mb-0"
           >
-            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">
-              Hey there, my name is G Reddy Vishnu Vardhan, and I'm studying cybersecurity BTech final year at Alliance University. I hope my portfolio website is attracting good enough. My journey in engineering began with a curiosity about learning technology. In the upcoming sections, you can see my achievements.
+            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">I’m a Computer Science Engineering student at Alliance University, specializing in Cybersecurity. With a strong foundation in programming and a deep interest in security, I’m passionate about building secure, efficient, and scalable applications. From developing machine learning-based threat detection systems to working on secure platforms, I love taking on new challenges. I’ve interned as a Cybersecurity Analyst. When I’m not coding, I lead the university volleyball club and explore emerging tech trends.
             </p>
             <div className="mt-6">
-              <a href="mailto:reddyvishnuv75@gmail.com" className="btn btn-primary inline-block">
+              <a href="mailto:kruthikjreddy@gmail.com" className="btn btn-primary inline-block">
                 Let's Work Together
               </a>
             </div>
@@ -109,7 +108,7 @@ const About = () => {
             viewport={{ once: true }}
             className="text-white text-[28px] font-bold text-center mb-10"
           >
-            My Services
+            MY SERVICES
           </motion.h3>
           
           <div className="mt-10 flex flex-wrap gap-10 justify-center">
