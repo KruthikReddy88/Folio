@@ -6,35 +6,35 @@ import { Award, ExternalLink } from "lucide-react";
 
 const certificates = [
   {
-    title: "Advanced Robotics Certification",
-    issuer: "International Robotics Association",
-    date: "June 2023",
-    description: "Comprehensive certification in advanced robotics programming and design principles.",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    title: "Certified Ethical Hacker (CEH)",
+    issuer: "EC-Council",
+    date: "Expected June 2025",
+    description: "Industry-recognized certification focused on ethical hacking techniques and cybersecurity practices.",
+    image: "https://images.unsplash.com/photo-1605902711622-cfb43c4437d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     link: "#"
   },
   {
-    title: "Full-Stack Web Development",
-    issuer: "Tech Academy Online",
-    date: "March 2023",
-    description: "Mastery of modern web development technologies including React, Node.js, and database management.",
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    title: "Ethical Hacking Essentials (EHE)",
+    issuer: "EC-Council",
+    date: "February 2025",
+    description: "Fundamentals of ethical hacking, including penetration testing and vulnerability assessment.",
+    image: "https://images.unsplash.com/photo-1600267165876-df27c4b9c863?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     link: "#"
   },
   {
-    title: "IoT Systems Design",
-    issuer: "Smart Systems Institute",
-    date: "November 2022",
-    description: "Specialized training in designing and implementing Internet of Things systems for various applications.",
-    image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    title: "Introduction to CISSP: Security Assessment & Operations",
+    issuer: "Simplilearn",
+    date: "September 2024",
+    description: "Exploration of key CISSP domains with focus on risk management, security operations, and assessment.",
+    image: "https://images.unsplash.com/photo-1619022951234-4287b68d4e8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     link: "#"
   },
   {
-    title: "Sustainable Engineering Practices",
-    issuer: "Green Engineering Council",
-    date: "August 2022",
-    description: "Certification in environmentally sustainable engineering methodologies and materials.",
-    image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    title: "Digital Forensics for Pentesters",
+    issuer: "Packt",
+    date: "November 2024",
+    description: "Hands-on training in digital forensics tools, investigation techniques, and cybercrime analysis.",
+    image: "https://images.unsplash.com/photo-1614064641938-3bbee52942a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     link: "#"
   }
 ];
@@ -112,8 +112,8 @@ const Certificates = () => {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <p className="section-subtext">My achievements</p>
-          <h2 className="section-heading">Certificates.</h2>
+          <p className="section-heading">MY ACHIEVEMENTS</p>
+          <h2 className="section-subtext">CERTIFICATES</h2>
         </motion.div>
 
         <div className="mt-16 flex flex-wrap gap-8 justify-center">
