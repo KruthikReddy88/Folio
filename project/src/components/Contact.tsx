@@ -29,7 +29,7 @@ const Contact = () => {
     // Simulate form submission
     setTimeout(() => {
       setLoading(false);
-      alert("Thank you. I will get back to you as soon as possible.");
+      alert("Thank you. I will get back to you soon.");
       setForm({
         name: "",
         email: "",
@@ -49,7 +49,7 @@ const Contact = () => {
           className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
         >
           <p className="section-subtext">Get in touch</p>
-          <h3 className="section-heading">Contact.</h3>
+          <h3 className="section-heading">CONTACT</h3>
 
           <div className="mt-8 flex flex-col gap-8">
             <div className="flex flex-col sm:flex-row gap-4 justify-between">
@@ -59,8 +59,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-white">Email</h4>
-                  <a href="mailto:reddyvishnuv75@gmail.com" className="text-secondary hover:text-white transition-colors">
-                    reddyvishnuv75@gmail.com
+                  <a href="mailto:kruthikjreddy@gmail.com" className="text-secondary hover:text-white transition-colors">
+                    kruthikjreddy@gmail.com
                   </a>
                 </div>
               </div>
@@ -72,12 +72,12 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-white">LinkedIn</h4>
                   <a 
-                    href="https://www.linkedin.com/in/reddy-vishnu-vardhan-611016322" 
+                    href="https://www.linkedin.com/in/kruthik-reddy-j" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-secondary hover:text-white transition-colors"
                   >
-                    Reddy Vishnu Vardhan
+                    Kruthik Reddy
                   </a>
                 </div>
               </div>
@@ -89,12 +89,12 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-white">GitHub</h4>
                   <a 
-                    href="https://github.com/CyberVishnu24" 
+                    href="https://github.com/KruthikReddy88" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-secondary hover:text-white transition-colors"
                   >
-                    CyberVishnu24
+                    Kruthik
                   </a>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Contact = () => {
               className="mt-12 flex flex-col gap-8"
             >
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">Your Name</span>
+                <span className="text-white font-medium mb-4">NAME</span>
                 <input
                   type="text"
                   name="name"
@@ -118,7 +118,7 @@ const Contact = () => {
                 />
               </label>
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">Your Email</span>
+                <span className="text-white font-medium mb-4">EMAIL</span>
                 <input
                   type="email"
                   name="email"
@@ -130,7 +130,7 @@ const Contact = () => {
                 />
               </label>
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">Your Message</span>
+                <span className="text-white font-medium mb-4">Message</span>
                 <textarea
                   rows={7}
                   name="message"
