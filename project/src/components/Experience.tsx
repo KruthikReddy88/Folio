@@ -80,7 +80,7 @@ const Experience = () => {
           transition={{ duration: 0.8 }}
         >
           <p className="section-subtext">What I have done so far</p>
-          <h2 className="section-heading">Experience & Education.</h2>
+          <h2 className="section-heading">Experience & Education</h2>
         </motion.div>
 
         <div className="mt-20 flex flex-col">
